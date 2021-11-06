@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "Poppins Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins-Thin.ttf");
+}
+
+* {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  overflow-y: overlay;
+  font-family: "Poppins Regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+::-webkit-scrollbar {
+  width: 6px !important;
+  height: 6px !important;
+}
+
+body ::-webkit-scrollbar-thumb {
+  background-color: hsla(0, 0%, 100%, 0.16);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-track {
+  background: hsla(0, 0%, 100%, 0.1);
+}
+
+.btn {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+.btn:hover .btn-slide-show-text1 {
+  margin-left: 65px;
+}
+.btn-down {
+  border: none;
+  outline: none;
+  background: none;
+  text-align: center;
+  display: inline-block;
+  width: 180px;
+  height: 40px;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.5s ease 0s;
+}
+.btn-down::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: 200px;
+  width: 250px;
+  border-radius: 50%;
+  bottom: 100%;
+  left: -30px;
+  transition: all 0.7s ease 0s;
+}
+.btn-down:hover {
+  color: rgb(255, 255, 255);
+}
+.btn-down:hover::before {
+  bottom: -50px;
+}
+.btn-down--black {
+  color: rgb(51, 51, 51);
+  border: 2px solid rgb(51, 51, 51);
+}
+.btn-down--black::before {
+  background: rgb(51, 51, 51);
+}
+
+@media only screen and (max-width: 568px) {
+  .highlighted-btn {
+    z-index: -900;
+  }
+}
+
+.red-border {
+  border: 1px solid var(--error-message) !important;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(80px);
+  transition: all 0.8s ease;
+}

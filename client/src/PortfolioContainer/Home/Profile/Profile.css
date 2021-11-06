@@ -1,0 +1,74 @@
+
+.profile-parent {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}
+
+.profile-details-name {
+  padding-bottom: 50%;
+  font-size: 5.5rem;
+  padding-left: 150px;
+  text-align: left;
+  font-family: "Poppins SemiBold";
+}
+
+.primary-text {
+  color: (--white);
+}
+.highlighted-text {
+  color: #00cdac;
+}
+.profile-role-tagline {
+  font-size: 25px;
+  margin: 5px 0 0 0;
+  font-family: "Poppins Light";
+}
+
+.colz {
+  padding-left: 154px;
+}
+
+.colz .colz-icon i {
+  color: white;
+  padding: 8px;
+  padding-left: 0px;
+}
+.colz .cols-icon i:hover {
+  transform: scale(1.5);
+}
+
+/*IPAD PRO RESPONSIVENESS*/
+@media only screen and (max-width: 1110px) {
+  .profile-details-name {
+    font-size: 50px;
+  }
+  .profile-details-role .primary-text {
+    font: 12px;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+
+  .profile-options {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .profile-details-name,
+  .profile-details-role {
+    padding-bottom: 100%;
+    text-align: left;
+    padding-left: 50px;
+  }
+
+  .colz {
+    padding-left: 54px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .proflie-details {
+    width: 70%;
+  }
+}

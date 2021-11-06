@@ -1,0 +1,102 @@
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 0 0;
+}
+.about-me-parent {
+  max-width: 1000px;
+  width: 70%;
+}
+.about-me-card {
+  display: flex;
+  width: 100%;
+  border-radius: 50px;
+  box-shadow:  32px 32px 64px #b8b8b8,
+               -32px -32px 64px #ffffff;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me-details {
+  text-align: center;
+  padding: 30px;
+  font-family: "Poppins Regular";
+}
+
+.about-me-highlights {
+  font-size: 20px;
+  font-family: "Poppins SemiBold";
+  padding-right: 100px;
+}
+
+.about-me-description {
+  font-size: 18px;
+}
+
+.about-me-highlights {
+  margin: 80px 0;
+}
+
+.btn {
+  font-family: "Poppins Regular";
+}
+
+.highlight {
+  display: flex;
+  align-items: center;
+  margin: 5px 50px;
+  font-size: 16px;
+  font-family: "Poppins Regular";
+}
+.highlight-blob {
+  height: 12px;
+  width: 12px;
+  margin: 0 10px 0 0;
+  background-color: #2c2c2c;
+  border-radius: 50%;
+}
+.about-me-options .highlighted-btn {
+  margin: 0 0 0 0;
+}
+
+/*IPAD PRO RESPONSIVENESS*/
+@media only screen and (max-width: 1110px) {
+  .about-me-parent {
+    width: 88%;
+  }
+}
+@media only screen and (max-width: 898px) {
+  .about-me-image {
+    display: none;
+  }
+  .about-me-details {
+    width: 100%;
+  }
+
+  .highlight {
+    font-size: 12px;
+  }
+
+  .about-me-highlights {
+    font-size: 16px;
+    padding-right: 0px;
+  }
+}
+@media only screen and (max-width: 466px) {
+  .about-me-options {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-me-options .highlighted-btn {
+    margin: 24px 0 0 0 !important;
+  }
+  .about-me-options button {
+    width: 80%;
+  }
+}
