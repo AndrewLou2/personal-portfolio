@@ -61,8 +61,8 @@ export default function AboutMe(props) {
             </div>
 
             <div className="about-me-options">
-              <a href="Resume.pdf" download="Andrew Lou.pdf">
-              <button className="btn btn-down btn-down--black">Resume</button>
+              <a href="Resume.pdf" download="Andrew_Lou.pdf">
+                <button className="btn btn-down btn-down--black">Resume</button>
               </a>
             </div>
           </div>

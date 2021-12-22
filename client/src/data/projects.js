@@ -2,6 +2,7 @@ import birrbot from "../images/birrbot.png";
 import portfolio from "../images/portfolio_website.png";
 import tob from "../images/ToB.png";
 import connect from "../images/connect-4.png";
+import chatroom from "../images/OS_chatroom.png";
 
 const portfolios = [
   {
@@ -39,6 +40,15 @@ const portfolios = [
     link2: "https://www.google.com",
     title: "Connect 4/16 Web Game",
     text: "Front-end connect-four game implementing hooks",
+  },
+  {
+    id: 5,
+    category: "C++",
+    image: chatroom,
+    link1: "https://github.com/AndrewLou2/OS-chatroom-app",
+    link2: "https://www.google.com",
+    title: "OS Chat Room App",
+    text: "Multi-user multi-transaction application that implements concepts of thread synchronization (semaphores), multithreading and socket programming",
   },
 ];
 

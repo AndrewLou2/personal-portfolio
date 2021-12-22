@@ -69,6 +69,13 @@ const Resume = (props) => {
 
   const projectsDetails = [
     {
+      title: "UWO Sunstang Project Team Lead",
+      duration: { fromDate: "Sep", toDate: "Present" },
+      description:
+        "Managed a team of 12 engineering students for the steering wheel and chase car telemetry project",
+      subHeading: "Technologies Used: Java",
+    },
+    {
       title: "Personal Portfolio Website",
       duration: { fromDate: "Nov", toDate: "Nov" },
       description:
@@ -81,15 +88,9 @@ const Resume = (props) => {
       description:
         "A discord bot that provides 140+ user with a fun experience.",
 
-      subHeading: "Technologies Used:  Python, Discord.py, REST, Heroku",
+      subHeading: "Technologies Used: Python, Discord.py, RESTful API, Heroku",
     },
-    {
-      title: "Thunder or Bust Game",
-      duration: { fromDate: "Jan", toDate: "Apr" },
-      description:
-        "Managed a team of 5 with the development of a 2-D Unity RPG game remotely.",
-      subHeading: "Technologies Used: Unity, C#",
-    },
+
   ];
 
   const resumeDetails = [
