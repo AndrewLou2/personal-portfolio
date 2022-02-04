@@ -72,7 +72,7 @@ const Resume = (props) => {
       title: "UWO Sunstang Project Team Lead",
       duration: { fromDate: "Sep", toDate: "Present" },
       description:
-        "Managed a team of 12 engineering students for the steering wheel and chase car telemetry project",
+        "Coordinated a team of 12 engineering students forthe steering wheel and the chase cartelemetry project",
       subHeading: "Technologies Used: Java",
     },
     {
@@ -90,7 +90,6 @@ const Resume = (props) => {
 
       subHeading: "Technologies Used: Python, Discord.py, RESTful API, Heroku",
     },
-
   ];
 
   const resumeDetails = [
@@ -98,8 +97,8 @@ const Resume = (props) => {
       <ResumeHeading
         heading={"University of Western Ontario"}
         subHeading={"Bachelor of Engineering in Software Engineering"}
-        fromDate={"2023"}
-        toDate={"2019"}
+        fromDate={"2019"}
+        toDate={"2023"}
       />
       <ResumeHeading
         heading={"A.B Lucas Secondary School "}
@@ -120,13 +119,13 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            - Designed, developed, and tested three features using Python and
-            Django.{" "}
+            - Designed, developed, and tested three features forthe company’s
+            internal tool using Python and Django.{" "}
           </span>
           <br />
           <span className="resume-description-text">
-            - Implemented an automated cost tracker using Amazon Web Services
-            API.{" "}
+            - Implemented an automated cost tracker using AWS’s API,reducing
+            overall order execution time by 25% .{" "}
           </span>
           <br />
           <br />
