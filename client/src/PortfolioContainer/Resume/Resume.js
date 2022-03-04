@@ -72,7 +72,7 @@ const Resume = (props) => {
       title: "UWO Sunstang Project Team Lead",
       duration: { fromDate: "Sep", toDate: "Present" },
       description:
-        "Coordinated a team of 12 engineering students forthe steering wheel and the chase cartelemetry project",
+        "Coordinated a team of 12 engineering students forthe steering wheel,infotainment system and the chase cartelemetry project",
       subHeading: "Technologies Used: Java",
     },
     {
@@ -98,7 +98,7 @@ const Resume = (props) => {
         heading={"University of Western Ontario"}
         subHeading={"Bachelor of Engineering in Software Engineering"}
         fromDate={"2019"}
-        toDate={"2023"}
+        toDate={"2024"}
       />
       <ResumeHeading
         heading={"A.B Lucas Secondary School "}
@@ -188,7 +188,7 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
         heading="Soccer"
-        description="Apart from being a tech enthusiast, I love to play soccer and am on the Western Intramurals team."
+        description="Apart from being a tech enthusiast, I enjoy playing soccer and is frequently on the Western Intramurals team."
       />
       <ResumeHeading
         heading="Art"
