@@ -20,11 +20,10 @@ export default function AboutMe(props) {
       bullets: [
         "Front-end development ",
         "Back-end development",
-        "Game development",
         "Windows/Linux",
         "Web design",
       ],
-      heading: "Some things I'm learning:",
+      heading: "Some things I'm currently learning:",
     },
   };
   const renderHighlight = () => {
