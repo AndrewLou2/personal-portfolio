@@ -69,26 +69,26 @@ const Resume = (props) => {
 
   const projectsDetails = [
     {
-      title: "UWO Sunstang Project Team Lead",
-      duration: { fromDate: "Sep", toDate: "Present" },
+      title: "OS Chat Room App",
+      duration: { fromDate: " ", toDate: "Dec 2021" },
       description:
-        "Coordinated a team of 12 engineering students forthe steering wheel,infotainment system and the chase cartelemetry project",
-      subHeading: "Technologies Used: Java",
+        "A multi-user multi-transaction application that allows text communication between clients over different operating system environments",
+      subHeading: "C++, Pytyon",
     },
     {
       title: "Personal Portfolio Website",
-      duration: { fromDate: "Nov", toDate: "Nov" },
+      duration: { fromDate: " ", toDate: "Nov 2021" },
       description:
         "A Full-Stack Responsive Personal Portfolio website for show-casing myself.",
-      subHeading: "Technologies Used: React JS, Bootsrap, Express Js, Node Js",
+      subHeading: "React JS, Bootsrap, Express Js, Node Js",
     },
     {
       title: "Discord Server Bot ",
-      duration: { fromDate: "Jul", toDate: "Jul" },
+      duration: { fromDate: " ", toDate: "Jul 2021" },
       description:
         "A discord bot that provides 140+ user with a fun experience.",
 
-      subHeading: "Technologies Used: Python, Discord.py, RESTful API, Heroku",
+      subHeading: "Python, Discord.py, RESTful API",
     },
   ];
 
@@ -112,39 +112,40 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"Godwise International"}
+          heading={"J.D. Power"}
           subHeading={"Software Engineer Intern"}
-          fromDate={"May2021"}
-          toDate={"Aug2021"}
+          fromDate={"May2022"}
+          toDate={"Present"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            - Designed, developed, and tested three features forthe company’s
-            internal tool using Python and Django.{" "}
+            - Developed and improved various software features using
+            industry-level test-driven code forthe incentives manager project
+            using GWT and Java .{" "}
           </span>
           <br />
           <span className="resume-description-text">
-            - Implemented an automated cost tracker using AWS’s API,reducing
-            overall order execution time by 25% .{" "}
+            - Designed and built an algorithm to effectively reduce the
+            automation testing run-time by 33%{" "}
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Integrated and maintained various mySQL queries which improved the
+            input/output of vehicle data in the incentives manager{" "}
           </span>
           <br />
           <br />
         </div>
         <ResumeHeading
-          heading={"Magna International"}
-          subHeading={"CAD/CAM Engineer Intern"}
-          fromDate={"Jul2019"}
-          toDate={"Aug2019"}
+          heading={"UWO Sunstang"}
+          subHeading={"Software Project Team Lead"}
+          fromDate={"Sep2021"}
+          toDate={"May2022"}
         />
         <div className="experience-description-text">
           <span className="resume-description-text">
-            - Generated engineering drawings per automotive tooling standards
-            using SolidWorks and AutoCAD.
-          </span>
-          <br />
-          <span className="resume-description-text">
-            - Performed updates to existing designs using SMIRT, CIMCO,
-            PowerMILL and Tebis Programming.
+            - Coordinated a team of 12 engineering students forthe steering
+            wheel, infotainment system and the chase cartelemetry project
           </span>
           <br />
         </div>

@@ -55,12 +55,12 @@ export default function AboutMe(props) {
                 {renderHighlight()}
               </div>
               <div className="about-me-image">
-                <img src={Image} alt="no image" />
+                <img src={Image} width={280} alt="no image" />
               </div>
             </div>
 
             <div className="about-me-options">
-              <a href="Resume.pdf" download="Andrew_Lou.pdf">
+              <a href="https://drive.google.com/file/d/1y47SYmPqFvgTU5nCVT0tkiHswJwLwOvb/view?usp=sharing" >
                 <button className="btn btn-down btn-down--black">Resume</button>
               </a>
             </div>
