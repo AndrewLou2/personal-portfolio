@@ -15,7 +15,7 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "Hello, my name is Andrew and I’m a student at the University of Western Ontario, pursuing a software engineering degree. I love to create things on the internet and I push myself everyday to learn more tools and technologies. I am also able to absorb new concepts quickly, while tackling new challenges.",
+      "I’m a student at the University of Western Ontario, pursuing a software engineering degree. I love to create things on the internet and I push myself everyday to learn more tools and technologies. I am also able to absorb new concepts quickly, while tackling new challenges.",
     highlights: {
       bullets: [
         "Front-end development ",

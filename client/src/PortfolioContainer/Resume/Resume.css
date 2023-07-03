@@ -3,14 +3,14 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    min-height: fit-content;
+    min-height: 800px;
     margin: 120px 0;
   }
   
   .resume-card {
     display: flex;
     height: 360px;
-    width: 1000px;
+    width: 1300px;
     /* margin: 80px 0; */
   }
   
@@ -193,7 +193,7 @@
   /* IPAD PRO RESPONSIVENESS */
   @media only screen and (max-width: 1110px) {
     .resume-card {
-      width: 880px;
+      width: 680px;
     }
   
     .resume-bullet-details {

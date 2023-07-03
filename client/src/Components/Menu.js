@@ -1,37 +1,35 @@
-import React from 'react'
-import styled from 'styled-components';
-import GitHub from '@material-ui/icons/GitHub';
+import React from "react";
+import styled from "styled-components";
+import GitHub from "@material-ui/icons/GitHub";
 
-function Menu({menuItem}) {
-    return (
-        <MenuItemStyled >
-            {
-                menuItem.map((item)=>{
-                    return <div className="grid-item" key={item.id}>
-                        <div className="portfolio-content">
-                            <div className="portfolio-image">
-                                <img src={item.image} alt=""/>
-                                <ul>
-                                    <li>
-                                        <a href={item.link1}>
-                                            <GitHub/>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href={item.link2}>
-                                            
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h6>{item.title}</h6>
-                            <p>{item.text}</p>
-                        </div>
-                    </div>
-                })
-            }
-        </MenuItemStyled>
-    )
+function Menu({ menuItem }) {
+  return (
+    <MenuItemStyled>
+      {menuItem.map((item) => {
+        return (
+          <div className="grid-item" key={item.id}>
+            <div className="portfolio-content">
+              <div className="portfolio-image">
+                <img src={item.image} alt="" />
+                <ul>
+                  <li>
+                    <a href={item.link2}></a>
+                  </li>
+                </ul>
+              </div>
+              <h6>
+                {item.title + "    "}
+                <a href={item.link1}>
+                  <GitHub />
+                </a>
+              </h6>
+              <p>{item.text}</p>
+            </div>
+          </div>
+        );
+      })}
+    </MenuItemStyled>
+  );
 }
 
 const MenuItemStyled = styled.div`
@@ -49,10 +47,14 @@ const MenuItemStyled = styled.div`
             display: block;
             position: relative;
             overflow: hidden;
+            a {
+                color: black;
+            }
             h6{
                 font-size: 1.5rem;
                 font-family: "Poppins Bold";;
-                padding: 10px 0 0 0;
+                padding: 15px 0 0 0;
+                margin-left: auto;
             }
             img{
                 width: 100%;
@@ -99,36 +101,6 @@ const MenuItemStyled = styled.div`
                     transition: all .4s ease-in-out;
                 }
             }
-            .portfolio-image:hover{
-                ul{
-                    transform: translateY(0);
-                    transform: translate(-50%, -50%);
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    transition: all .4s ease-in-out;
-                    opacity: 1;
-                    li{
-                        transition: all .4s ease-in-out;
-                        &:hover{
-                            background-color: var(--primary-color);
-                        }
-                        a{
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            transition: all .4s ease-in-out;
-                        }
-                    }
-                    li:hover{
-                        svg{
-                            color: var(--white-color);
-                        }
-                    }
-                    svg{
-                        font-size: 2rem;
-                    }
-                }
                 &::before{
                     height: calc(100% - 32%) ;
                     width: calc(100% - 4%);

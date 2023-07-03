@@ -119,19 +119,16 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            - Developed and improved various software features using
-            industry-level test-driven code forthe incentives manager project
-            using GWT and Java .{" "}
+            - Architected and implemented 8 features that enhances the overall efficiency of search, sort and collection of vehicle data
+using Java and GWT.{" "}
           </span>
           <br />
           <span className="resume-description-text">
-            - Designed and built an algorithm to effectively reduce the
-            automation testing run-time by 33%{" "}
+            - Designed and built an efficient algorithm to reduce the Spring Boot automation testing run-time by 30%.{" "}
           </span>
           <br />
           <span className="resume-description-text">
-            - Integrated and maintained various mySQL queries which improved the
-            input/output of vehicle data in the incentives manager{" "}
+            -  Integrated and maintained various mySQL queries which improved the input/output of vehicle data.{" "}
           </span>
           <br />
           <br />
