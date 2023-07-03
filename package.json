@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "http://AndrewLou2.github.io/personal-portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run  server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
@@ -25,5 +28,8 @@
     "nodemailer": "^6.7.0",
     "nodemon": "^2.0.14",
     "react-toastify": "^8.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
